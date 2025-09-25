@@ -1,0 +1,56 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+*.env
+*.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Django
+*.log
+*.pot
+*.pyc
+db.sqlite3
+media/
+staticfiles/
+local_settings.py
+
+# VS Code
+.vscode/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Test and coverage
+.coverage
+htmlcov/
+*.cover
+*.py,cover
+.tox/
+nosetests.xml
+coverage.xml
+*.mo
+
+# Pip
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Migrations
+**/migrations/
+!**/migrations/__init__.py
+
+# Node
+node_modules/
+npm-debug.log*
+
+# Others
+*.swp
+*.swo
+.idea/
